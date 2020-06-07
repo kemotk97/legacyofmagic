@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1761820290222778540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3667980337262187180}
+  - component: {fileID: 6062466179030134398}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3667980337262187180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761820290222778540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6062466179030134398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761820290222778540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6684a7a474d044d40977c8171121cb43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Shoot
+    clip: {fileID: 8300000, guid: ea6a7c9912c900a4caeb4914e5d328d5, type: 3}
+    volume: 0.378
+    pitch: 1
+    loop: 0
+  - name: Jump
+    clip: {fileID: 8300000, guid: 099bfb856cdf23c44971452038294001, type: 3}
+    volume: 0.677
+    pitch: 1
+    loop: 0
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: 74595bd2a18e80c4c99d41c8053b4e4b, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+  - name: LevelMusic
+    clip: {fileID: 8300000, guid: 74958f36a0fa83945a31962e19a036d6, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+  - name: MenuHover
+    clip: {fileID: 8300000, guid: f7fc66ad7ef909049aa1c8c57239be0d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: MenuSelect
+    clip: {fileID: 8300000, guid: bcd2d52cd4ae1b1479841622c805fecd, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: FailSound
+    clip: {fileID: 8300000, guid: a32d70ee9695f474997d2706374525d2, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: CheckpointSound
+    clip: {fileID: 8300000, guid: 5c450aa3fcd46624a96193609e38acc1, type: 3}
+    volume: 0.3
+    pitch: 0.8
+    loop: 0
+  - name: LevelCompleteSound
+    clip: {fileID: 8300000, guid: fdbad2367fba1a64fa834084ccc6b587, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
